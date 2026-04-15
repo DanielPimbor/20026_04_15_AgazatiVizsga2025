@@ -1,5 +1,6 @@
 urhajosok = []
 with open('Python/3_feladat/urhajos.txt', 'r', encoding='utf-8') as forrasfajl:
+    #next(forrasfajl) nem next in forrasfajl
     next(forrasfajl)
     for sor in forrasfajl:
         adatok = sor.strip().split(';')
