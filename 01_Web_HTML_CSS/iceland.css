@@ -1,0 +1,68 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Hero szekció */
+/* 5.feladat ide kellett beilleszteni */
+/* 12.feladat a */
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/golden_circle.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    margin-bottom: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero h2 {
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+/* Címsorok */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    /* 12.feladat c , 1px solid border bottom kell*/
+    border-bottom: 1px solid #3498db;
+}
+
+/* Kártya stílusok */
+.card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Táblázat stílusok */
+.table {
+    margin: 20px 0;
+
+}
+
+/* Források stílusok */
+#forrasok a {
+    color: #776e6e;
+    font-style: italic;
+    /* 12. feladat e ne legyen aláhuzas */
+    text-decoration: none;
+}
+
+#forrasok a:hover{
+    color: #3498db;
+}
+
+/* 12.feladat b */
+.card:hover {
+    width: 110%;
+}
